@@ -18,7 +18,7 @@ funcionarOuNao('Testando...', 0.5)
     .then(
         v => consol.log(v),
         err => console.log(`Erro esp.: ${err}`)
-        )
+    )
     .then(() => console.log('Quase Fim!'))
     .catch(err => console.log(`Erro Geral: ${err}`))
     .then(() => console.log('Fim!'))
