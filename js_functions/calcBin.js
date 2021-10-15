@@ -8,7 +8,7 @@ convertToBinary = num => {
     let res=[]
     while (num != 0) num % 2 == 0 ? (num/=2, res.push(0)) : (num = (num-1)/2, res.push(1))
     return res.reverse().toString().replace(/,/g, '')
-} // Sintaxe: convertToDecimal('úumero decimal') --- Retorna: retorna o número em binário
+} // Sintaxe: convertToBinary('numero decimal') --- Retorna: retorna o número em binário
 
 // Operações: 
 sum = (a,b) => convertToDecimal(a) + convertToDecimal(b) // Operador: sum
